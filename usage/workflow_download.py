@@ -6,12 +6,9 @@ jm_albums = '''
 JM1065264
 '''
 
-# # 单独下载章节
-# jm_photos = '''
+# 单独下载章节
+jm_photos = '\n'.join(f'JM1065264-{i}' for i in range(1, 250))
 
-
-
-# '''
 
 
 def env(name, default, trim=('[]', '""', "''")):
