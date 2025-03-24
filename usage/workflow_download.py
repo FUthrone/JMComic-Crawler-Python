@@ -6,6 +6,7 @@ jm_albums = '''
 JM1065264
 '''
 
+jm_photos = '\n'.join(f'JM1065264-{i}' for i in range(1, 250))
 
 
 
